@@ -1,6 +1,39 @@
 .app__container{
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 5rem 6rem;
+  gap: 1rem;
+}
+.near-logo{
+  width: 100px;
+  height: auto;
+}
+.greeting{
+  color: #0072CE;
+  text-decoration: underline;
+}
+.change_greeting_container{
+  font-size: calc(.9em + .5vw);
+  margin-top: 1rem;
+  border: 2px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+  padding: 0.8rem 1rem;
+  width: 100%;
+}
+.change_greeting_container > div{
+  width: 100%;
+  display: flex;
+}
+.change_greeting_input{
+  width: 100%;
+  height: 30px;
+  padding: 1px;
+}
+.save_btn{
+  padding: 5px;
 }

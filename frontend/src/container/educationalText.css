@@ -1,0 +1,10 @@
+.educational_text_container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    font-size: calc(.9em + .5vw);
+}
+.educational_text_container > ol{
+    padding-left: 3rem;
+}
