@@ -1,13 +1,14 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import NearLogo from "./assets/logo-black.svg";
 import EducationalText from "./container/EducationalText";
 import SignInButton from "./components/SignInButton";
 import "./App.css";
 
-function App() {
+function App({wallet}) {
+  
   return (
     <div className="app__container">
-      <SignInButton/>
+      <SignInButton onClick={()=>{wallet.signIn()}}/>
       <img src={NearLogo} className="near-logo" />
       <h1>
         The contract says: <span className="greeting">{"Hello"}</span>
