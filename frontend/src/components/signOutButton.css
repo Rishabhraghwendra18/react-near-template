@@ -1,0 +1,17 @@
+.sign_out_btn{
+    background-color: #0072CE;
+  border-radius: 5px;
+  border: none;
+  color: #efefef;
+  cursor: pointer;
+  /* width: 80px; */
+  padding: 0.3em 0.75em;
+  transition: transform 30ms;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 1.7rem;
+  right: 3rem;
+}
+.sign_out_btn:hover, .sign_out_btn:focus {
+    box-shadow: 0 0 10em rgba(255, 255, 255, 0.2) inset;
+  }

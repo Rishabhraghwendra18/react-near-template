@@ -10,13 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
+    "@esbuild-plugins/node-modules-polyfill": "^0.2.2",
     "@near-wallet-selector/core": "^8.7.0",
     "@near-wallet-selector/modal-ui": "^8.7.0",
     "@near-wallet-selector/my-near-wallet": "^8.7.0",
+    "@rollup/plugin-inject": "^5.0.5",
     "dotenv": "^16.3.1",
     "near-api-js": "^2.1.4",
+    "process": "^0.11.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rollup-plugin-polyfill-node": "^0.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",
